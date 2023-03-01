@@ -1,0 +1,86 @@
+html{
+    font-family: 'Labrada', serif;
+    font-family: 'Shantell Sans', cursive;
+}
+
+body{
+    margin: 0;
+    background: rgb(204, 202, 202)
+}
+
+header{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    padding: 0.1px
+}
+
+.date{
+    float: right;
+    margin-right: 8px;
+    color: #868383;
+}
+.contenido{  
+    width: 450px;
+    margin: 0% auto;
+    cursor: pointer;
+}
+
+
+article:hover {
+    transition: box-shadow 0.4s ease-in-out ;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  }
+
+article{
+    border-radius: 5px;
+    background-color: white;
+    margin:1px 0;
+}
+
+article h2{
+    padding: 10px 0px;  
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+    
+
+
+article p{
+    padding: 10px 0px;
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+footer{
+background-color: #222;
+padding: 20px;
+margin-top: 50px;
+}
+
+.pie{
+margin: 0px;
+margin-top: -21px;
+color: white;
+}
+
+.inicio{
+display: flex;
+justify-content: center;
+color: white;
+text-decoration: none;
+}
+
+.mail{
+float: right;
+margin-top: -21px;
+color: white;
+text-decoration: none;
+}
+
+a:hover{
+transition: all 0.4s ease;
+color:cornflowerblue;
+}
